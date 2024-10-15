@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Clicker</title>
+</head>
+<body>
+   <img id="money" src="https://lh5.googleusercontent.com/proxy/gWO9jvsFoRf0fJb4GKewLgxD8Mj0WhEj43PKSZyAXAcDBdb5kx1TzcaDhEE9Svg95D0-5C0wlLHTtJTeQv3N-Z3GCDqTmDuqZXSUqZm6kan4c-mY23aKJT4-I8w55aWlpR_t11w28Qd20PhnqkouhgHb_nwAK9_CQVFGpcy7f4fZN7tusa2Jrv9_ECnHp6Wr5q9gU0b1_FEpRA">    
+  <p>score;0</p>
+  <p id="p1">score</p>
+  </body>
+</html>
+<script>
+  document.getElementById("money").addEventListener("click",up)
+  var score=0
+  function up(){
+   score=score+1
+   document.getElementById("p1").innerHTML ="money = "+ score;
+  console.log(score)
+  }
+  </script>  
