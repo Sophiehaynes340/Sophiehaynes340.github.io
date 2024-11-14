@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p id="love">I love cats</p>
+    <img id="cat" src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg">
+</body>
+</html>
+<script>
+function love () {
+    alert("love")
+    document.getElementById("love").style.color = "blue";
+}
+document.getElementById("love").addEventListener("click",love)
+document.getElementById("cat").addEventListener("click",cat)
+document.getElementById("cat").addEventListener("mouseover",size )
+function cat (){
+    alert ("cat")
+}
+function size (){
+    ("cat")
+    document.getElementById("cat").style.height= "1000px";
+}
+</script>
